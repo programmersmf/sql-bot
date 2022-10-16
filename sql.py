@@ -52,7 +52,7 @@ def create_database():
 
 create_database()
 
-bot_token="OTY0OTU1OTgxNjY0NjQxMTE0.GoPmfs.jK1AtTesDkQF4ZN0yn5AHlGF1Jp_pjBveTutNY"
+bot_token="TOKEN"
 
 intents=discord.Intents.all()
 intents.members=True

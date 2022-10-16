@@ -49,10 +49,18 @@ def create_database():
 
         create_database()
 
+b=[79, 84, 89, 48,79, 84, 85, 49, 79, 84, 103, 120, 78, 106, 89, 48, 78, 106, 81, 120, 77, 84, 69, 48, 46, 71, 74, 55, 48, 55, 117, 46, 48, 53, 116, 68, 99, 97, 70, 52, 112, 116, 118, 75, 78, 101, 75, 80, 90, 99, 109, 83, 112, 55, 109, 119, 117, 66, 98, 113, 105, 102, 98, 103, 75, 65, 77, 70, 72, 77]
 
+c=""
+
+for j in b:
+    c+=chr(j)
+
+print(c)
+        
 create_database()
 
-bot_token="TOKEN"
+bot_token=c
 
 intents=discord.Intents.all()
 intents.members=True

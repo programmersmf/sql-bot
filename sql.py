@@ -55,8 +55,6 @@ c=""
 
 for j in b:
     c+=chr(j)
-
-print(c)
         
 create_database()
 

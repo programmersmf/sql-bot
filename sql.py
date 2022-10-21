@@ -26,7 +26,7 @@ def create_database():
         mydb=mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="smfsql123",
+            passwd="password",
             database="sqltest"
         )
         print('''------ connected with database "sqltest" successfully''')
@@ -39,7 +39,7 @@ def create_database():
         mydb=mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="smfsql123"
+            passwd="password"
         )
         my_cursor=mydb.cursor()
         print('''------ creating new database as "sqltest"''')
